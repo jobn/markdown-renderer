@@ -1,6 +1,18 @@
 # React component that renders markdown input
 
-see App.js for usage examples
+```
+import Md from './MarkdownRenderer';
+
+...
+
+<Md render={`
+  # This is an <h1> tag
+  ## This is an <h2> tag
+  ###### This is an <h6> tag
+`} />
+```
+
+see App.js for further usage examples
 
 to start demo: ```yarn start```
 
